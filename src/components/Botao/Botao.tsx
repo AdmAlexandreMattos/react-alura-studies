@@ -1,8 +1,8 @@
 import React from "react";
-import "./Botao.css";
+import "./Botao.scss";
 
 export class Botao extends React.Component {
   render() {
-    return <button>Botão</button>;
+    return <button className="botao">Botão</button>;
   }
 }
